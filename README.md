@@ -1,12 +1,12 @@
-//in terminal se dau comenzile>>>>>>>>>>>
+# Node-RED Setup and Dashboard
+
+This project uses Node-RED along with a dashboard and OSC support. Follow the steps below to install, run, and use the project.
+
+## Installation
+
+Open your terminal and run the following commands:
+
+```bash
 npm install -g --unsafe-perm node-red
 npm install node-red-dashboard
 npm install node-red-contrib-osc
-
-//Se porneste node-red in terminal prin comanda<>>>>>>
-node-red
-
-*/se intra pe localhost:1880
-se apasa ctrl+i si se incarca fisierul flows.json
-se apasa deploy
-se intra pe localhost:1880/ui pentru a se vedea UI-ul
