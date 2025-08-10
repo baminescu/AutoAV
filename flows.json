@@ -1,0 +1,758 @@
+[
+    {
+        "id": "37fe66dac3d6ef97",
+        "type": "tab",
+        "label": "Curgere 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "646b432f977a4b79",
+        "type": "ui_slider",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "label": "CH2",
+        "tooltip": "",
+        "group": "a8a301379fda6b1e",
+        "order": 2,
+        "width": 1,
+        "height": "5",
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "1",
+        "step": "0.01",
+        "className": "",
+        "x": 830,
+        "y": 100,
+        "wires": [
+            [
+                "132e45ed28b426ae"
+            ]
+        ]
+    },
+    {
+        "id": "132e45ed28b426ae",
+        "type": "osc",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "path": "/ch/02/mix/fader",
+        "metadata": false,
+        "x": 970,
+        "y": 100,
+        "wires": [
+            [
+                "41ac6857d1b0417c"
+            ]
+        ]
+    },
+    {
+        "id": "0fad536d344cf5f9",
+        "type": "ui_slider",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "label": "CH3",
+        "tooltip": "",
+        "group": "a8a301379fda6b1e",
+        "order": 3,
+        "width": 1,
+        "height": "5",
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "1",
+        "step": "0.01",
+        "className": "",
+        "x": 830,
+        "y": 160,
+        "wires": [
+            [
+                "6a6e402d671516e1"
+            ]
+        ]
+    },
+    {
+        "id": "6a6e402d671516e1",
+        "type": "osc",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "path": "/ch/03/mix/fader",
+        "metadata": false,
+        "x": 970,
+        "y": 160,
+        "wires": [
+            [
+                "41ac6857d1b0417c"
+            ]
+        ]
+    },
+    {
+        "id": "b1c1781545de2705",
+        "type": "ui_slider",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "label": "CH4",
+        "tooltip": "",
+        "group": "a8a301379fda6b1e",
+        "order": 4,
+        "width": 1,
+        "height": "5",
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "1",
+        "step": "0.01",
+        "className": "",
+        "x": 830,
+        "y": 220,
+        "wires": [
+            [
+                "182f5e34d708a7d9"
+            ]
+        ]
+    },
+    {
+        "id": "182f5e34d708a7d9",
+        "type": "osc",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "path": "/ch/04/mix/fader",
+        "metadata": false,
+        "x": 970,
+        "y": 220,
+        "wires": [
+            [
+                "41ac6857d1b0417c"
+            ]
+        ]
+    },
+    {
+        "id": "b7145e777e81d57e",
+        "type": "ui_slider",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "label": "CH5",
+        "tooltip": "",
+        "group": "a8a301379fda6b1e",
+        "order": 5,
+        "width": 1,
+        "height": "5",
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "1",
+        "step": "0.01",
+        "className": "",
+        "x": 830,
+        "y": 280,
+        "wires": [
+            [
+                "017828ef1c1e7846"
+            ]
+        ]
+    },
+    {
+        "id": "017828ef1c1e7846",
+        "type": "osc",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "path": "/ch/05/mix/fader",
+        "metadata": false,
+        "x": 970,
+        "y": 280,
+        "wires": [
+            [
+                "41ac6857d1b0417c"
+            ]
+        ]
+    },
+    {
+        "id": "d097bb96c931b2f9",
+        "type": "ui_slider",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "label": "CH6",
+        "tooltip": "",
+        "group": "a8a301379fda6b1e",
+        "order": 6,
+        "width": 1,
+        "height": "5",
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "1",
+        "step": "0.01",
+        "className": "",
+        "x": 830,
+        "y": 340,
+        "wires": [
+            [
+                "8bcc27ce58bcdadc"
+            ]
+        ]
+    },
+    {
+        "id": "8bcc27ce58bcdadc",
+        "type": "osc",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "path": "/ch/06/mix/fader",
+        "metadata": false,
+        "x": 970,
+        "y": 340,
+        "wires": [
+            [
+                "41ac6857d1b0417c"
+            ]
+        ]
+    },
+    {
+        "id": "bec462b7e3c575eb",
+        "type": "ui_slider",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "label": "CH7",
+        "tooltip": "",
+        "group": "a8a301379fda6b1e",
+        "order": 7,
+        "width": 1,
+        "height": "5",
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "1",
+        "step": "0.01",
+        "className": "",
+        "x": 830,
+        "y": 400,
+        "wires": [
+            [
+                "dcf5f0d6162b07eb"
+            ]
+        ]
+    },
+    {
+        "id": "dcf5f0d6162b07eb",
+        "type": "osc",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "path": "/ch/07/mix/fader",
+        "metadata": false,
+        "x": 970,
+        "y": 400,
+        "wires": [
+            [
+                "41ac6857d1b0417c"
+            ]
+        ]
+    },
+    {
+        "id": "43e063933d5a879b",
+        "type": "ui_slider",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "label": "CH8",
+        "tooltip": "",
+        "group": "a8a301379fda6b1e",
+        "order": 8,
+        "width": 1,
+        "height": "5",
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "1",
+        "step": "0.01",
+        "className": "",
+        "x": 830,
+        "y": 460,
+        "wires": [
+            [
+                "5e9ca303bc7246ae"
+            ]
+        ]
+    },
+    {
+        "id": "5e9ca303bc7246ae",
+        "type": "osc",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "path": "/ch/08/mix/fader",
+        "metadata": false,
+        "x": 970,
+        "y": 460,
+        "wires": [
+            [
+                "41ac6857d1b0417c"
+            ]
+        ]
+    },
+    {
+        "id": "8ce055a4e2cb524d",
+        "type": "ui_slider",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "label": "CH1",
+        "tooltip": "",
+        "group": "a8a301379fda6b1e",
+        "order": 1,
+        "width": 1,
+        "height": "5",
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "1",
+        "step": "0.01",
+        "className": "",
+        "x": 830,
+        "y": 40,
+        "wires": [
+            [
+                "1ca3054848c3409f"
+            ]
+        ]
+    },
+    {
+        "id": "1ca3054848c3409f",
+        "type": "osc",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "path": "/ch/01/mix/fader",
+        "metadata": false,
+        "x": 970,
+        "y": 40,
+        "wires": [
+            [
+                "41ac6857d1b0417c"
+            ]
+        ]
+    },
+    {
+        "id": "41ac6857d1b0417c",
+        "type": "udp out",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "addr": "192.168.11.225",
+        "iface": "",
+        "port": "10023",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 1220,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "a7d7e0e301e0f930",
+        "type": "udp in",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "iface": "",
+        "port": "10023",
+        "ipv": "udp4",
+        "multicast": "false",
+        "group": "",
+        "datatype": "buffer",
+        "x": 120,
+        "y": 220,
+        "wires": [
+            [
+                "266fa6125746b170"
+            ]
+        ]
+    },
+    {
+        "id": "266fa6125746b170",
+        "type": "osc",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "path": "",
+        "metadata": false,
+        "x": 270,
+        "y": 220,
+        "wires": [
+            [
+                "f30b1b62bc38c509"
+            ]
+        ]
+    },
+    {
+        "id": "f30b1b62bc38c509",
+        "type": "switch",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "/ch/01/mix/fader",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/ch/02/mix/fader",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/ch/03/mix/fader",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/ch/04/mix/fader",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/ch/05/mix/fader",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/ch/06/mix/fader",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/ch/07/mix/fader",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "/ch/08/mix/fader",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 8,
+        "x": 410,
+        "y": 220,
+        "wires": [
+            [
+                "abd2a52ae9dfc5ec"
+            ],
+            [
+                "9efa9810857307e3"
+            ],
+            [
+                "dc7773c6ed731bf5"
+            ],
+            [
+                "d37f27b8989bca09"
+            ],
+            [
+                "4c397e03876152a9"
+            ],
+            [
+                "a676edec88bc648d"
+            ],
+            [
+                "b0a383df87be9d1a"
+            ],
+            [
+                "5d51b037a5b827f7"
+            ]
+        ]
+    },
+    {
+        "id": "abd2a52ae9dfc5ec",
+        "type": "function",
+        "z": "37fe66dac3d6ef97",
+        "name": "function 1",
+        "func": "msg.payload = msg.args[0].value; // Valoare fader 0..1\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 40,
+        "wires": [
+            [
+                "8ce055a4e2cb524d"
+            ]
+        ]
+    },
+    {
+        "id": "9efa9810857307e3",
+        "type": "function",
+        "z": "37fe66dac3d6ef97",
+        "name": "function 2",
+        "func": "msg.payload = msg.args[0].value; // Valoare fader 0..1\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 100,
+        "wires": [
+            [
+                "646b432f977a4b79"
+            ]
+        ]
+    },
+    {
+        "id": "dc7773c6ed731bf5",
+        "type": "function",
+        "z": "37fe66dac3d6ef97",
+        "name": "function 3",
+        "func": "msg.payload = msg.args[0].value; // Valoare fader 0..1\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 160,
+        "wires": [
+            [
+                "0fad536d344cf5f9"
+            ]
+        ]
+    },
+    {
+        "id": "d37f27b8989bca09",
+        "type": "function",
+        "z": "37fe66dac3d6ef97",
+        "name": "function 4",
+        "func": "msg.payload = msg.args[0].value; // Valoare fader 0..1\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 220,
+        "wires": [
+            [
+                "b1c1781545de2705"
+            ]
+        ]
+    },
+    {
+        "id": "4c397e03876152a9",
+        "type": "function",
+        "z": "37fe66dac3d6ef97",
+        "name": "function 5",
+        "func": "msg.payload = msg.args[0].value; // Valoare fader 0..1\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 280,
+        "wires": [
+            [
+                "b7145e777e81d57e"
+            ]
+        ]
+    },
+    {
+        "id": "a676edec88bc648d",
+        "type": "function",
+        "z": "37fe66dac3d6ef97",
+        "name": "function 6",
+        "func": "msg.payload = msg.args[0].value; // Valoare fader 0..1\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 340,
+        "wires": [
+            [
+                "d097bb96c931b2f9"
+            ]
+        ]
+    },
+    {
+        "id": "b0a383df87be9d1a",
+        "type": "function",
+        "z": "37fe66dac3d6ef97",
+        "name": "function 7",
+        "func": "msg.payload = msg.args[0].value; // Valoare fader 0..1\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 400,
+        "wires": [
+            [
+                "bec462b7e3c575eb"
+            ]
+        ]
+    },
+    {
+        "id": "5d51b037a5b827f7",
+        "type": "function",
+        "z": "37fe66dac3d6ef97",
+        "name": "function 8",
+        "func": "msg.payload = msg.args[0].value; // Valoare fader 0..1\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 460,
+        "wires": [
+            [
+                "43e063933d5a879b"
+            ]
+        ]
+    },
+    {
+        "id": "e4e083a0ebee0c3d",
+        "type": "inject",
+        "z": "37fe66dac3d6ef97",
+        "name": "Cerere date mixer",
+        "props": [],
+        "repeat": "9",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 560,
+        "wires": [
+            [
+                "cbdc582a5d6158b7"
+            ]
+        ]
+    },
+    {
+        "id": "8345f9751d6422a1",
+        "type": "udp out",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "addr": "192.168.11.255",
+        "iface": "",
+        "port": "10023",
+        "ipv": "udp4",
+        "outport": "",
+        "base64": false,
+        "multicast": "false",
+        "x": 780,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "cbdc582a5d6158b7",
+        "type": "function",
+        "z": "37fe66dac3d6ef97",
+        "name": "nodul function",
+        "func": "msg.topic = \"/xremote\";  // The OSC path\nmsg.payload = [];        // Empty arguments array\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 560,
+        "wires": [
+            [
+                "2aaf48eca3512878"
+            ]
+        ]
+    },
+    {
+        "id": "2aaf48eca3512878",
+        "type": "osc",
+        "z": "37fe66dac3d6ef97",
+        "name": "",
+        "path": "",
+        "metadata": false,
+        "x": 570,
+        "y": 560,
+        "wires": [
+            [
+                "8345f9751d6422a1"
+            ]
+        ]
+    },
+    {
+        "id": "bbf2459820f350fd",
+        "type": "ui_template",
+        "z": "37fe66dac3d6ef97",
+        "group": "a8a301379fda6b1e",
+        "name": "",
+        "order": 8,
+        "width": "2",
+        "height": "8",
+        "format": "<div class=\"mixer-channel\">\n  <!-- \n    [CONTAINER TEXT]\n    Poziția textului se controlează prin proprietatea 'top'\n    Valori mai mici = mai sus, valori mai mari = mai jos\n    Exemplu: 10px (sus) sau 50px (mai jos)\n  -->\n  <div class=\"channel-name\" style=\"top: 10px\">🎤 CH1</div>\n\n  <!-- \n    [INPUT FADER]\n    Elementul principal de control\n    - min=\"0\" (valoarea minimă)\n    - max=\"0.75\" (valoarea maximă)\n    - step=\"0.01\" (precizie 1%)\n    - value=\"0\" (valoare inițială la mijloc)\n  -->\n  <input type=\"range\" class=\"fader-control\" min=\"0\" max=\"0.75\" step=\"0.01\" value=\"0\">\n</div>\n\n<style>\n  /* [CONTAINER PRINCIPAL] */\n  .mixer-channel {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    width: 60px;\n    /* Lățime container */\n    margin: 10px;\n    /* Spațiu între elemente */\n    position: relative;\n    /* Pentru poziționare absolută a textului */\n    height: 250px;\n    /* Înălțime totală container */\n  }\n\n  /* [STIL TEXT] */\n  .channel-name {\n    position: absolute;\n    left: 0;\n    right: 0;\n    text-align: center;\n    font-size: 14px;\n    /* Dimensiune font */\n    color: black;\n    /* Culoare text */\n    z-index: 10;\n    /* Strat de afișare */\n  }\n\n  /* [STIL FADER PRINCIPAL] */\n  .fader-control {\n    -webkit-appearance: none;\n    /* Resetează stilul implicit */\n    width: 200px;\n    /* Lungime fader rotit */\n    height: 16px;\n    /* Grosime linie */\n    transform: rotate(-90deg);\n    /* Rotire verticală */\n    margin: 135px -30px;\n    /* Poziționare: vertical | orizontal */\n    background: transparent;\n    /* Fundal invizibil */\n    cursor: pointer;\n    /* Cursor mână */\n  }\n\n  /* [STIL LINIE FADER] */\n  .fader-control::-webkit-slider-runnable-track {\n    height: 8px;\n    /* Grosime linie */\n    background: #333;\n    /* Culoare linie */\n    border-radius: 4px;\n    /* Colțuri rotunjite */\n  }\n\n  /* [STIL CURSOR FADER] */\n  .fader-control::-webkit-slider-thumb {\n    -webkit-appearance: none;\n    width: 24px;\n    /* Lățime cursor */\n    height: 30px;\n    /* Înălțime cursor */\n    background: #ccc;\n    /* Culoare cursor */\n    border-radius: 3px;\n    /* Colțuri rotunjite */\n    margin-top: -11px;\n    /* Centrare verticală: (50/2)-(8/2) */\n    border: 1px solid #888;\n    /* Bordură cursor */\n  }\n</style>\n\n<script>\n  /*\n  [LOGICA PRINCIPALĂ]\n  Gestionează comunicarea OSC bidirecțională:\n  - De la fader la mixer\n  - De la mixer la fader\n*/\n(function(scope) {\n  // 1. Referință către elementul fader\n  const fader = document.querySelector('.fader-control');\n  \n  // 2. Ascultă mișcări locale (utilizator)\n  fader.addEventListener('input', function(e) {\n    const value = parseFloat(e.target.value);\n    \n    // Trimite valoarea către mixer\n    scope.send({ \n      address: '/ch/01/mix/fader',\n      payload: value,\n      topic: 'user_move' // Marchează ca acțiune utilizator\n    });\n  });\n\n  // 3. Ascultă actualizări externe (de la mixer)\n  scope.$watch('msg', function(msg) {\n    // Ignoră mesajele invalide sau cele de la același fader\n    if(!msg || !msg.payload || msg.topic === 'user_move') return;\n    \n    const newValue = parseFloat(msg.payload);\n    if(!isNaN(newValue)) {\n      // Actualizează poziția faderului\n      fader.value = newValue;\n    }\n  });\n  \n  // 4. Inițializare cu valoare predefinită (opțional)\n  if(typeof scope.initValue !== 'undefined') {\n    fader.value = scope.initValue;\n  }\n})(scope);\n</script>\n\n<!-- \n  [INSTRUCȚIUNI DE UTILIZARE]\n  1. Control poziție text:\n     - Modifică 'top' în style=\"top: 10px\"\n  \n  2. Pentru mai multe canale:\n     - Duplică tot blocul și actualizează:\n       * Textul (CH1 → CH2 etc.)\n       * Adresa OSC (/ch/01/ → /ch/02/etc.)\n  \n  3. Dimensiuni fader:\n     - Lățime: modifică 'width' în .fader-control\n     - Înălțime: ajustează 'height' în .mixer-channel\n-->",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 420,
+        "y": 40,
+        "wires": [
+            [
+                "8ce055a4e2cb524d"
+            ]
+        ]
+    },
+    {
+        "id": "a8a301379fda6b1e",
+        "type": "ui_group",
+        "name": "Mixer Sunet",
+        "tab": "a5f1599fdf361dab",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a5f1599fdf361dab",
+        "type": "ui_tab",
+        "name": "Control Aula CNU",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f5b6297b4099bcbe",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6",
+            "node-red-contrib-osc": "1.1.0"
+        }
+    }
+]
