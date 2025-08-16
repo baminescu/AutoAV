@@ -4,7 +4,8 @@ This project uses Node-RED along with a dashboard and OSC support. Follow the st
 
 ## Installation
 
-Install Node.js > https://nodejs.org/en/download
+Install Node.js > https://nodejs.org/en/download.
+
 Open your terminal and run the following commands:
 
 ```bash
